@@ -80,3 +80,8 @@ git config --global --list
 ## Double quotation marks around text
 
 In some Git commands, using double quotation marks around text is necessary, especially when the text includes spaces or special characters
+
+## Links
+
+- [ByteByteGo = How Git Works: Explained in 4 Minutes](https://www.youtube.com/watch?v=e9lnsKot_SQ)
+- [ByteByteGo = CI/CD In 5 Minutes](https://www.youtube.com/watch?v=42UP1fxi2SY)
