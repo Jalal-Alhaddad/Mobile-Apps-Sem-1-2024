@@ -2,6 +2,8 @@
 
 ## Git Cheatsheet
 
+### Setup Credentials
+
 - Set a Username
 
 ```bash
@@ -13,6 +15,14 @@ git config --gLobal user.name "<firstname Lastname>"
 ```bash
 git config --gLobal user.email "<valid-email>"
 ```
+
+- Display the content of your global Git configuration
+
+```bash
+git config --global --list
+```
+
+### Initialization and linking with remote
 
 - Initialize an existing directory as a Git repository
 
@@ -26,17 +36,49 @@ git init
 git remote add origin <repo_url>
 ```
 
+- Get link to remote
+
+```bash
+git remote get-url origin
+```
+
+### Cloning
+
 - Clone (download) a repository that already exists on GitHub.
 
 ```bash
 git clone <repo_url>
 ```
 
+- Clone with limited history
+
+```bash
+git clone --depth=1 <repo_url>
+```
+
+### Managing Giles
+
 - Show modified files in working directory, staged for your next commit
 
 ```bash
 git status
 ```
+
+- Display the commit history in a Git repository
+
+```bash
+git log
+```
+
+- Show what revision and author last modified each line of a file
+
+```bash
+git blame <file_name_with_path>
+# without Username
+git blame -s <file_name_with_path>
+```
+
+### Stage & Snapshot
 
 - Add a file as it looks now to your next commit (stage)
 
@@ -56,10 +98,67 @@ git add .
 git commit -m "<descriptive message>"
 ```
 
-- Display the content of your global Git configuration
+- Amending commit
 
 ```bash
-git config --global --list
+git commit --amend -m "<new message>"
+# keep old message
+git commit --amend --no-edit
+```
+
+### Branching
+
+- To check which branch that is
+
+```bash
+git branch
+```
+
+- Create new branch
+
+```bash
+git branch <branch-name>
+```
+
+- Creates a new branch & switch to that branch using one command only
+
+```bash
+git checkout -b <branch-name>
+```
+
+- Deletes the specified branch
+
+```bash
+git branch -d <branch-name>
+```
+
+### Update Local & Remote repos
+
+- Updates local working branch with all new commits from the corresponding remote branch on `GitHub.com`
+- `git pull` is a combination of `git fetch` and `git merge`
+
+```bash
+git pull origin <branch_name>
+```
+
+- Uploads all local branch commits to GitHub
+
+```bash
+git push origin <branch_name>
+```
+
+- Synchronize your local repository with the remote repository on `GitHub.com`
+
+```bash
+git fetch
+```
+
+### Merging
+
+- Merge <branch> into the current branch
+
+```bash
+git merge <branch_name>
 ```
 
 ## See 👀 Github like vscode
@@ -85,3 +184,11 @@ In some Git commands, using double quotation marks around text is necessary, esp
 
 - [ByteByteGo = How Git Works: Explained in 4 Minutes](https://www.youtube.com/watch?v=e9lnsKot_SQ)
 - [ByteByteGo = CI/CD In 5 Minutes](https://www.youtube.com/watch?v=42UP1fxi2SY)
+- [What is Git? Explained in 2 Minutes!](https://www.youtube.com/watch?v=2ReR1YJrNOM)
+
+## VSCode Extensions
+
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+- [Git Prefix](https://marketplace.visualstudio.com/items?itemName=srmeyers.git-prefix)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
