@@ -192,3 +192,6 @@ In some Git commands, using double quotation marks around text is necessary, esp
 - [Git Prefix](https://marketplace.visualstudio.com/items?itemName=srmeyers.git-prefix)
 - [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+- [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+- [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
