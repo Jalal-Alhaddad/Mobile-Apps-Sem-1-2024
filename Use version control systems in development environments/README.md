@@ -195,3 +195,4 @@ In some Git commands, using double quotation marks around text is necessary, esp
 - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [GitHub Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
 - [GitHub Codespaces](https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+- [Git MERGE vs REBASE: Everything You Need to Know](https://www.youtube.com/watch?v=0chZFIZLR_0)

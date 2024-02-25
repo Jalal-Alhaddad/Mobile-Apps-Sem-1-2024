@@ -1,6 +1,6 @@
-# Development Workflow
+# Class 4: Development Workflow
 
-- [Development Workflow](#development-workflow)
+- [Class 4: Development Workflow](#class-4-development-workflow)
   - [Branching models (Strategies)](#branching-models-strategies)
   - [Branch naming guidelines](#branch-naming-guidelines)
   - [Branch name conventions](#branch-name-conventions)
