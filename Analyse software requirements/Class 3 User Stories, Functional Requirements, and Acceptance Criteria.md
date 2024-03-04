@@ -4,6 +4,7 @@
   - [Introduction](#introduction)
   - [Role of user stories](#role-of-user-stories)
   - [Understanding functional and non-functional requirements](#understanding-functional-and-non-functional-requirements)
+    - [Distinguishing Between Functional and Non-functional Requirements](#distinguishing-between-functional-and-non-functional-requirements)
   - [Incorporating user stories into functional requirements](#incorporating-user-stories-into-functional-requirements)
   - [Acceptance Criteria and Testing Considerations](#acceptance-criteria-and-testing-considerations)
   - [Documenting non-functional requirements with user stories](#documenting-non-functional-requirements-with-user-stories)
@@ -12,6 +13,7 @@
     - [User Stories](#user-stories)
     - [Prioritization](#prioritization)
   - [Links](#links)
+
 
 ## Introduction
 
@@ -52,6 +54,23 @@ Recap of the user stories
   - Non-functional Requirements
     - Guarantee the system's performance, security, and usability
     - Define the criteria for acceptance testing and overall system quality
+
+### Distinguishing Between Functional and Non-functional Requirements
+
+1. **Universality across all conditions**: one method to differentiate between functional and non-functional requirements involves considering the universality across all conditions and users:
+   - Functional Requirements:
+     - **Characteristic**: Typically conditional in nature, varying based on specific conditions or user interactions.
+     - **Identification**: If a requirement is conditional, it is likely functional in nature.
+   - Non-functional Requirements:
+     - **Characteristic**: Universality across all conditions and users, independent of specific scenarios.
+     - **Identification**: If a requirement is universal, it is likely non-functional.
+2. **Nature of the requirement**: another approach is to consider the nature of the requirement in relation to the system's behavior and characteristics:
+   - Functional Requirements:
+     - **Nature**: Describes specific functionalities and features that the system must provide.
+     - **Examples**: Input validation, data processing, user authentication.
+   - Non-functional Requirements:
+     - **Nature**: Encompasses system qualities and attributes rather than specific behaviors.
+     - **Examples**: `Performance, reliability, security, usability, Quality, Maintainability`.
 
 ## Incorporating user stories into functional requirements
 

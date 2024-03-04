@@ -5,6 +5,8 @@
   - [Agenda](#agenda)
   - [1 Overview of Software Requirements Analysis](#1-overview-of-software-requirements-analysis)
     - [1.1 Definition](#11-definition)
+      - [1.1.1 Requirement Definitions](#111-requirement-definitions)
+      - [1.1.2 Requirement Categories](#112-requirement-categories)
     - [1.2 Role in SDLC](#12-role-in-sdlc)
       - [SDLC (Software Development Life Cycle)](#sdlc-software-development-life-cycle)
       - [SDLC Key Stages](#sdlc-key-stages)
@@ -81,6 +83,40 @@
 
 - **Definition**: Software Requirements Analysis is the process of gathering, documenting, and managing the requirements for a software system.
 - **Importance**: It forms the foundation for a successful software project by ensuring clear objectives and expectations.
+
+#### 1.1.1 Requirement Definitions
+
+Requirement definitions may vary depending on the domain and source, whether it is software requirements or engineering requirements. The following are some definitions from different sources and books:
+
+> "A condition or capability to which a system must conform."
+
+Source: The Rational Unified Process by Phillipe Kruchten
+
+> "A specification of what should be implemented."
+
+Source: Requirements Engineering: A Good Practice Guide by Ian Sommerville and Pete Sawyer
+
+> "A property a product must have to provide value to stakeholders."
+
+Source: Software Requirements by Karl Weigers and Joy Beatty
+
+> "Anything that drives design choices."
+
+Source: "Requirement Happens," American Programmer, by Brian Lawrence
+
+#### 1.1.2 Requirement Categories
+
+Different categories of requirements serve various purposes in a project:
+
+1. **Business Requirement**: High-level objectives that align with the overall business goals.
+   - Solve a business problem
+   - Improve a business process
+   - Exploit business opportunity
+2. **Business Rule**: Policies, standards, or regulations that dictate how the business operates.
+3. **Functional Requirement**: Specifies the desired behavior and functionalities of the system.
+4. **Nonfunctional Requirement**: Encompasses various system characteristics, including quality, maintainability, usability, performance, and security.
+5. **External interface requirement**: System integration
+6. **Constraint**: Developer choices
 
 ### 1.2 Role in SDLC
 
