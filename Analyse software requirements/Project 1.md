@@ -138,7 +138,99 @@ The acronym FURPS+ stands for:
     - **Associations**: Lines connecting actors and use cases, illustrating relationships.
     - **System Boundary**: Represents the scope of the system.
 
-## Proposed solutions
+## Feasibility Analysis
+
+When evaluating a project, you're basically asking:
+
+>"Can we realistically pull this off?"
+
+A feasibility study helps assess this by examining four key areas
+
+### Feasibility Areas
+
+#### Technical Feasibility
+
+- Can we do it with current technology, or is there a need for significant research and development?
+- Are the necessary skills and expertise available?
+- Are there any technological limitations or dependencies?
+
+#### Operational Feasibility
+
+- Does the project align with the overall goals and strategy of the organization?
+- How will it impact existing workflows and processes?
+- What resources (people, equipment, etc.) are required, and how will they be integrated?
+
+#### Budgetary Feasibility
+
+- Can we afford it?
+- What are the estimated costs (development, implementation, ongoing maintenance)?
+- Is there a clear funding source or plan to secure funding?
+- What is the projected return on investment (ROI)?
+
+#### Scheduling Feasibility
+
+- How long will it take to complete the project?
+- Are there any critical deadlines or dependencies?
+- Are the resources available to meet the desired timeline?
+- What are the potential risks and mitigation plans for delays?
+
+### Steps
+
+1. **Identify the Project Goals**: Clearly define what the project aims to achieve.
+2. **Analyze Each Area**: For each feasibility area (technical, operational, budgetary, scheduling):
+   - Describe the relevant factors and considerations.
+   - Assess the strengths and weaknesses of the project in that area.
+   - Identify any potential risks or challenges.
+3. **Summarize the Overall Feasibility**:
+   - Based on the analysis, conclude whether the project seems feasible (possible and worthwhile) with the current resources and approach.
+   - Highlight any areas that require further investigation or mitigation strategies.
+
+### Example
+
+**Project**: Develop a new mobile app to streamline customer service interactions.
+
+#### Technical Feasibility Analysis
+
+- Existing development tools and frameworks can be used.
+- Some in-house developers possess the necessary skills, but additional training may be required.
+
+#### Operational Feasibility Analysis
+
+- Aligns with the company's goal of improving customer satisfaction.
+- Requires integrating with existing customer data systems.
+
+#### Budgetary Feasibility Analysis
+
+- Initial development costs may be high, ongoing maintenance costs are moderate.
+- Funding can be secured through a budget allocation.
+- Potential cost savings from improved customer service efficiency need to be evaluated.
+
+#### Scheduling Feasibility Analysis
+
+- Development can likely be completed within 6 months.
+- However, data system integration might cause delays.
+
+#### Overall Feasibility
+
+- The project appears technically feasible with some additional training.
+- Operational fit is strong, but data system integration needs careful planning.
+- Budgetary feasibility hinges on a clear cost-benefit analysis.
+- The schedule is achievable, but risks associated with data integration need mitigation strategies.
+
+### Important Notes
+
+- A feasibility study is an ongoing process, not a one-time assessment.
+- As the project progresses, new information may emerge, requiring adjustments to the feasibility analysis.
+
+## Solution Comparison
+
+After completing software requirement development, comparing potential solutions is a crucial part of the feasibility analysis
+
+- **Software Requirements Development (SRD)**: Focuses on understanding the problem, identifying stakeholder needs, and defining the functionalities (what) the software needs.
+- **Feasibility Analysis**: This stage assesses if the requirements defined in SRD are achievable within project constraints (technical, operational, budgetary, scheduling)
+- **Comparing solutions**: help to choose the solution that best meets all feasibility criteria, identify potential technical or implementation challenges early on, anf provides valuable insights to stakeholders when deciding
+
+### Proposed solutions
 
 - [bamboohr](https://www.bamboohr.com/mobile)
 - [employmenthero](https://employmenthero.com)
